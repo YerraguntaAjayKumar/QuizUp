@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(79, 79, 208);
+    display: grid;
+    justify-content: center;
+    
+    
+}
+.Container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;  
+}
+.Question{
+    font-size: 25px
+}
+.Options{
+    display: grid;
+    gap: 5px;
+}
+.Navigation{
+    display: flex;
+    justify-content: space-between;    
+}
+.Navigation button {
+    width: 90px; 
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(79, 79, 208);
+    color: whitesmoke;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Options button {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.Qno, .time {
+    font-size: 18px;
+    font-weight: bold;
+}
+
