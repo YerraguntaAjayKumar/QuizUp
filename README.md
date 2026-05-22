@@ -1,1 +1,1 @@
-QuizUp
+QuiitUp
